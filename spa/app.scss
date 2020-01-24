@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap");
+
+$pink-color: #f50f78;
+$blue-color: #3988e9;
+$purple-color: #8b3ddd;
+$purple-light-color: #f4effc;
+$horizontal-padding: 32px;
+
+@mixin transition($seg, $transition) {
+  -webkit-transition: all $seg $transition;
+  -moz-transition: all $seg $transition;
+  -ms-transition: all $seg $transition;
+  -o-transition: all $seg $transition;
+  transition: all $seg $transition;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+*,
+a,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+span,
+ul {
+  font-family: Poppins, sans-serif;
+}
+.app__wrapper {
+  width: 100%;
+  max-width: 500px;
+  min-height: 100vh;
+  margin: 0 auto;
+  border: 1px solid #f1f1f1;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.input__failed {
+  border: 2px solid red;
+}
+
+// @import "./components/login/Login.scss";
+// @import "./components/loading/Loading.scss";
+// @import "./components/detail/Detail.scss";
+// @import "./components/campaign/Campaign.scss";
+// @import "./components/table/Table.scss";
