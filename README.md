@@ -1,7 +1,8 @@
-# Awesome Project Build with TypeORM
+API node.js con typescript
+SPA con react.js y styled components
 
-Steps to run this project:
+Comandos:
 
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+npm run build   (para compilar el backend)
+npm run dev     (para correr el server en modo desarrollo con nodemon)
+npm run dev-spa (para correr el cliente en modo desarrollo
