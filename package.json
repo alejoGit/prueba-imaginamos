@@ -55,6 +55,6 @@
     "reflect-metadata": "^0.1.10",
     "sqlite3": "^4.0.3",
     "styled-components": "^5.0.0",
-    "typeorm": "0.2.22"
+    "typeorm": "0.2.25"
   }
 }
